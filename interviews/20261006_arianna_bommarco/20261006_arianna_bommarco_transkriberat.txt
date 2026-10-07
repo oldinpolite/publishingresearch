@@ -1,0 +1,2204 @@
+# Transcript — opmo research — 2026-10-06
+
+- **Guest:** Arianna Bommarco
+- **Reporter:** Oivvio Polite
+- **Language:** SWEDISH (berget/KBLab/kb-whisper-large)
+- **Generated:** 2026-10-07 05:57 UTC
+
+---
+
+**Oivvio Polite** — 00:00:03
+
+Hallå! Tjena!
+
+**Arianna Bommarco** — 00:00:04
+
+Hallå. Tjena. Det började pling-plonga i min telefon på nåt konstigt sätt. Vad är det här för nåt? Det här vet jag inte vad det är för nåt.
+
+**Oivvio Polite** — 00:00:15
+
+Det här är faktiskt ett annat projekt som jag själv håller på med. Helt orelaterat till kvällens projekt.
+
+**Arianna Bommarco** — 00:00:20
+
+Helt orelaterat till kvällens projekt, men det här är ett projekt som jag håller på med som ett intervjuverktyg för radiojournalister.
+
+**Oivvio Polite** — 00:00:22
+
+Men det här är ett projekt som jag håller på med som är ett intervjuverktyg för radiojournalister.
+
+**Oivvio Polite** — 00:00:30
+
+Som ska hjälpa dem att få bättre ljud när de gör remote-intervjuer.
+
+**Arianna Bommarco** — 00:00:39
+
+Är det dåligt ljud?
+
+**Oivvio Polite** — 00:00:42
+
+Alltså folk gör remote-intervjuer på en massa olika sätt.
+
+**Oivvio Polite** — 00:00:47
+
+Ett sätt man kan göra det på är att man ringer upp någon på Skype eller Zoom eller Whatsapp. Och då blir det Kanske bättre ljud än om man bara ringer på telefon, men det blir inte riktigt bra ljud.
+
+**Oivvio Polite** — 00:01:05
+
+Då har det uppstått en massa verktyg som går ut på att man kopplar ett externt ljudkort och extern mikrofon till datorn på båda sidor.
+
+**Oivvio Polite** — 00:01:22
+
+och så har man ett videosamtal med båda har en extern mikrofon och så fångar man in ljudet obearbetat från båda sidor och skickar upp det okomprimerat till en server. Jag gör någonting liknande men som utgår ifrån att man använder sig av intervjupersonens dator och mobiltelefon. Du ser att du har en QR-kod till vänster eller till höger på skärmen.
+
+**Arianna Bommarco** — 00:01:49
+
+Till höger.
+
+**Oivvio Polite** — 00:01:51
+
+Den skannar intervjupersonen med sin mobiltelefon och då börjar mobiltelefonen fungera som en mikrofon. Och så skickar den upp ljud löpande till servern okomprimerat. Det blir väldigt bra faktiskt. Jag får säga det själv.
+
+**Arianna Bommarco** — 00:02:09
+
+Jag lyssnar ju mycket på radion och just när det gäller ljudet så har jag faktiskt, jag trodde att det var fel på mina hörlurar först för jag lyssnar så mycket på radion och ljudet ofta är
+
+**Oivvio Polite** — 00:02:21
+
+Ja.
+
+**Arianna Bommarco** — 00:02:25
+
+Liksom lite, alltså lite så. Jag vet inte om du... Ibland när hörlurarna blir gamla så kan de nästan spraka litegrann.
+
+**Oivvio Polite** — 00:02:32
+
+Ja. Så kan man nästan spraka lite grann.
+
+**Arianna Bommarco** — 00:02:35
+
+Lite, lite, lite.
+
+**Oivvio Polite** — 00:02:36
+
+Ja.
+
+**Arianna Bommarco** — 00:02:36
+
+Det är någonting som blir lite metalliskt på något sätt.
+
+**Oivvio Polite** — 00:02:38
+
+Ja. Mm. Mm. Ja.
+
+**Arianna Bommarco** — 00:02:40
+
+Och så låter det när man lyssnar på de här, särskilt på de här poddarna när de sitter i olika, när de inte sitter i gemensam studio. Utan där de sitter i olika, som USA-podden och sånt där.
+
+**Oivvio Polite** — 00:02:54
+
+Jag skulle säga att det hänger ihop med... När man behöver skicka video över nätet så gör man ofta... Ljud tar ju upp ganska mycket data.
+
+**Oivvio Polite** — 00:03:12
+
+klämma ihop ljudet så mycket som det bara går, komprimera det så hårt som möjligt. Då kan det ofta ta stryk där i ljudkvaliteten. Det är det som jag försöker komma runt med mitt projekt, att jag skickar okomprimerad data.
+
+**Arianna Bommarco** — 00:03:25
+
+Men när jag lyssnar på ljudböcker så är det ju inte...
+
+**Oivvio Polite** — 00:03:29
+
+Då har de ju inte det här överföringsproblemet.
+
+**Oivvio Polite** — 00:03:33
+
+en skådis suttit i en studio med en regissör och så har de gjort den här inläsningen och då har de inte det här problemet att de i realtid skickar ljud över Atlanten.
+
+**Arianna Bommarco** — 00:03:46
+
+Nej, just det. Det är en inspelning.
+
+**Oivvio Polite** — 00:03:54
+
+Men det är kul att du hör den skillnaden för att en del skulle jag säga, för en del leder nog bara, vad heter det, att man kanske upplever skillnaden men inte kan pinpointa den eller att det är lite... Okej.
+
+**Arianna Bommarco** — 00:04:07
+
+Nej men alltså jag jobbar ju jättemycket med ljudböcker. Jag lyssnar ju så jävla mycket så att man blir väldigt Man tänker mycket på hur saker låter, man tänker mycket på vad som irriterar en. Även när man lyssnar på röster och olika inläsare. Det är en sån grej som utvärderas hela tiden. Hur är den här inläsaren?
+
+**Oivvio Polite** — 00:04:32
+
+Ja, men.
+
+**Arianna Bommarco** — 00:04:34
+
+Den här är ju så populär, bla bla bla. Man blir liksom medveten, egentligen helt
+
+**Arianna Bommarco** — 00:04:48
+
+av bara farten, så att säga.
+
+**Oivvio Polite** — 00:04:56
+
+Ditt jobb då? Som jag kanske sa när vi sågs på Christians grej, så är det som jag och Mats försöker nysta i, det är om det finns någonting runt små och medelstora förlag som man kan göra digitalt. Om det finns ett behov där som inte är tillgodosett. Metoden är att prata med folk tills man förhoppningsvis börjar höra dem säga samma saker. Upplägget för samtalet är att du berättar om er process från det att ett manus kommer in till det att en läsare har en bok i handen. Och kanske med en slags tonvikt på praktiska och digitala aspekter snarare än litterära kvaliteter.
+
+**Arianna Bommarco** — 00:06:09
+
+För det första kommer manus in på massa olika sätt.
+
+**Arianna Bommarco** — 00:06:14
+
+Vi pratade när vi sågs om manusinkorgen. Det är en väg, och där hämtar man egentligen ganska lite som förläggare.
+
+**Arianna Bommarco** — 00:06:27
+
+Sen kommer det från agenter, det kommer från projekt som man själv söker upp. Författare, ska inte du skriva den här boken? Det är nog lite lika för alla förläggare.
+
+**Oivvio Polite** — 00:06:42
+
+Att man har olika källor, så att säga.
+
+**Arianna Bommarco** — 00:06:44
+
+Ja, precis.
+
+**Arianna Bommarco** — 00:06:49
+
+När man har sitt projekt som man känner att det här skulle kunna bli en bra bok, så tar man ofta det till redaktionen. Antingen har du läst ett manus redan, som du har,
+
+**Arianna Bommarco** — 00:07:05
+
+Då pitchar du ditt projekt internt.
+
+**Oivvio Polite** — 00:07:13
+
+Okej, så det är er process då att ni har olika personer som bevakar olika inkorgar. Så du kanske har pratat med en agent och så har det dykt upp någonting som du tycker är intressant och då tar du det till en större grupp. Och innan det har du redan ratat ett helt gäng.
+
+**Oivvio Polite** — 00:07:37
+
+Så det är inte som att allting utsätts för en kollektiv bedömning.
+
+**Arianna Bommarco** — 00:07:41
+
+Nej, det skulle jag inte säga. Det är nog lite olika på olika förlag.
+
+**Arianna Bommarco** — 00:07:48
+
+Jag har också jobbat där det har varit väldigt mycket gemensamma beslut och en förlagschef som säger hej eller nej.
+
+**Arianna Bommarco** — 00:07:59
+
+Så det är nog lite olika processer på olika förlag. Men som förläggare behöver man ju ändå liksom Man har ju sina idéer om vad man vill ha in.
+
+**Oivvio Polite** — 00:08:11
+
+Nej.
+
+**Arianna Bommarco** — 00:08:14
+
+Så man är ju på något vis en... Det var någon som sa till mig någon gång, är du indrivare?
+
+**Arianna Bommarco** — 00:08:31
+
+Men så känner jag mig inte riktigt. Men det kommer från lite olika håll.
+
+**Oivvio Polite** — 00:08:39
+
+Men du kommer ändå ibland med idéer till folk som du tänker att den här personen borde skriva i den här boken, eller?
+
+**Arianna Bommarco** — 00:08:46
+
+Ja, det gör de flesta. Gör man inte det så är man inte en bra förläggare.
+
+**Arianna Bommarco** — 00:08:56
+
+Det är ganska vanligt. Bonniers går till Anna-Karin Palm och säger till henne. Hej, ska inte du skriva en biografi om Selma Lagerlöf?
+
+**Oivvio Polite** — 00:09:02
+
+Skriva en ny bok nu.
+
+**Arianna Bommarco** — 00:09:06
+
+Alltså, det är inget, det har inte gjorts någon på länge. Ska inte du... Och så får hon en påse pengar. Så sätt dig nu i tre år och skriv.
+
+**Arianna Bommarco** — 00:09:20
+
+Så det är väl en...
+
+**Oivvio Polite** — 00:09:26
+
+Och vad är det som kan vara tankegångar där då, i den processen?
+
+**Oivvio Polite** — 00:09:38
+
+Fundera över vem man går till och vilken slags idéer man presenterar.
+
+**Arianna Bommarco** — 00:09:43
+
+Det är ju omvärldsbevakning generellt. Och sen så tror jag att man också, många förlagen, de mer etablerade förlagen, att man har liksom, som Bonniers, de måste ha de här tunga titlarna. Och då så ber de om en sån tung titel. För att det ligger liksom i deras varumärkes... förvaltning av varumärket och sådär. Sen kanske det inte är den boken de tjänar mest pengar på, men de behöver det för att kunna... Ja.
+
+**Oivvio Polite** — 00:10:14
+
+Nej.
+
+**Arianna Bommarco** — 00:10:23
+
+Nej, men alltså egentligen så är det ju...
+
+**Arianna Bommarco** — 00:10:27
+
+Det är egentligen inte... Ja. Det är ganska... Och så kan ju böcker komma in på en massa olika sätt, så det är egentligen inte så...
+
+**Arianna Bommarco** — 00:10:42
+
+Det handlar väldigt mycket om omvärldsbevakning och att samla in och hitta projekt som är spännande och som passar för förlaget.
+
+**Oivvio Polite** — 00:10:56
+
+Vad skulle du säga är dina källor för din omvärldsbevakning?
+
+**Arianna Bommarco** — 00:11:07
+
+Det är så jäkla olika.
+
+**Arianna Bommarco** — 00:11:14
+
+Om jag köper utländskt, om jag köper rättigheter från utlandet, då är jag kanske ute på de här sajterna Goodreads och scannar dem och ser vad som händer där.
+
+**Oivvio Polite** — 00:11:18
+
+Alltså utländska systerförlag.
+
+**Arianna Bommarco** — 00:11:25
+
+Man följer bokbloggare, man åker på mässor, man träffar internationella agenter. De presenterar och pitchar sina idéer. Man kanske har förlag som man vet ger ut den typen av böcker man är intresserad av. Som är lite som ett systerförlag för en själv liksom, och så tittar man där. Ja, och sen är det ju de som scannar topplistor i andra länder som Ja men som Johanna Kink.
+
+**Arianna Bommarco** — 00:11:57
+
+Hon har ett enmansförlag och ger ut bara franska bästsäljare. Hon har ju lyckats, det är helt sjukt liksom, för hon har ju lyckats få sådana toppbästsäljare bara för att hon har hittat rätt böcker och så har hon satsat och översatt dem.
+
+**Arianna Bommarco** — 00:12:19
+
+Den här boken som heter Färskt vatten till blommorna, den sålde mer än böcker på Bonniers och på Dorstedts gjorde och hon är bara en person.
+
+**Oivvio Polite** — 00:12:31
+
+Så hon har varit framgångsrik i sin omvärldsbevakning och lyckats hitta de här titlarna innan de fångas upp av större förlag.
+
+**Arianna Bommarco** — 00:12:41
+
+Ja, fast där var det nog ändå, ja, där finns det ju scouter också, som scoutar.
+
+**Oivvio Polite** — 00:12:47
+
+Aha, okej. Utöver agenter finns det också scouter i bokbranschen.
+
+**Oivvio Polite** — 00:12:54
+
+Ja. Och det är också ett fenomen i Sverige, eller? Mm. Mm. Mm.
+
+**Arianna Bommarco** — 00:12:58
+
+Ja, alltså ja, det är nog mer, ja, alltså jag tror att det finns liksom Jag jobbar inte så mycket mot scouter, så jag använder inte det. Jag köper inte in speciellt mycket.
+
+**Arianna Bommarco** — 00:13:16
+
+Jag har köpt in några titlar, men jag jobbar inte med det dagligen. Men då finns det scouter som håller koll på vissa marknader.
+
+**Oivvio Polite** — 00:13:27
+
+Mmm.
+
+**Arianna Bommarco** — 00:13:28
+
+Så till exempel skulle jag kunna vara, om jag säger att jag inte jobbar som förläggare så skulle jag kunna scouta till andra länder. Jag har stenkoll på allt som kommer ut i Sverige och så har jag kunder på andra förlag i andra länder och så säger jag, men okej, ni letar efter den nya svenska heta romanen. Den här kommer nu. Fattar.
+
+**Oivvio Polite** — 00:13:54
+
+Fattar. Och då behöver du liksom inte ha... Scouten behöver ju då inte ha liksom... En agent jobbar ju med de som hen representerar. Men som scout så är egentligen hela fältet öppet.
+
+**Arianna Bommarco** — 00:14:12
+
+Sen vet jag inte hur de tar betalt och sådär, för agenterna får ju procent på...
+
+**Arianna Bommarco** — 00:14:20
+
+Men Joanna har väl agent kanske?
+
+**Oivvio Polite** — 00:14:22
+
+Ja, hon har en agent på något sätt via Bonniers. Men scouten jobbar snarare på uppdrag av ett utländskt förlag.
+
+**Arianna Bommarco** — 00:14:27
+
+Ja, då har hon Bonnier Rights. Annars tar ju agenterna en viss procent på vad de säljer och på royalty och allt möjligt.
+
+**Arianna Bommarco** — 00:14:45
+
+Eller ett svenskt förlag kan ju också anlita en scout.
+
+**Oivvio Polite** — 00:14:55
+
+Ja, det här är ju väldigt intressant. Faktum är att Mats har haft en helt annan idé om stöd för omvärldsbevakning. Det här krokar ju in i det. Så det var en helt oväntad horisont för mig runt bokmarknaden.
+
+**Arianna Bommarco** — 00:15:20
+
+Jag vet inte om det är världens största, men det är i alla fall Europas största bokmässa.
+
+**Oivvio Polite** — 00:15:23
+
+Mm. Mm.
+
+**Arianna Bommarco** — 00:15:27
+
+Jag har aldrig varit där. De gånger jag har åkt dit och skulle ha åkt, så har det alltid hänt nånting, så det har inte blivit. Men den är tydligen helt bananas, för den är så jävla stor. Att få överblick över utgivningen i olika länder, plus att Det som sker nu ganska mycket generellt är det här med översättningar och AI-översättningar. Väldigt många förlag använder sig av den här tjänsten som heter New Angst. Har ni hört talas om den?
+
+**Oivvio Polite** — 00:16:06
+
+Nej, en tjänst som heter vad? New Angs. N U A N. Okej. Och vad gör den tjänsten?
+
+**Arianna Bommarco** — 00:16:11
+
+New Angst. Alltså N-U-A-N... Jag måste skriva det för jag vet inte hur det ska avstavas.
+
+**Arianna Bommarco** — 00:16:24
+
+N-U-A-N-X. Okej. Och så E-D, tror jag. New Angst. Och vad gör den tjänsten? Den tjänsten har helhetslösningar. Du har köpt rättigheterna till en bok från utlandet och så skickar du manuset till New Angst.
+
+**Arianna Bommarco** — 00:16:53
+
+så grundar det sig på nåt AI-verktyg de har, där de gör översättningen och sen har de anlitat, för det har ju inte funkat.
+
+**Oivvio Polite** — 00:16:56
+
+Mmm.
+
+**Arianna Bommarco** — 00:17:03
+
+Folk har kört Deeple och allting, och det blir så jävla dåligt så det funkar inte. Så de har en helhetslösning där du skickar ditt manus i originalspråk och så översätter de, redigerar, korrekturläser, allting. Så du får tillbaka ett perfekt manus som du bara kan sätta och trycka. Så det sparar ju förlagen jättemycket administrativa, det här med att skicka korrektur hit och dit och versioner och ha en översättare sen och korrektur. Allt det där, det är så mycket admin som du bara slipper.
+
+**Oivvio Polite** — 00:17:41
+
+Det handlar inte bara om att skära kostnaden för en översättare, utan det handlar om att hela...
+
+**Arianna Bommarco** — 00:17:46
+
+Det blir inte billigare. Newanger är så pass dyrt, så det ligger nästan i vad det kostar att göra en översättning. Väldigt många av deras redaktörer är ganska ruttade. De har ju jobbat som översättare tidigare.
+
+**Arianna Bommarco** — 00:18:06
+
+Då finns det en annan tjänst som håller på att utvecklas. Det är Jonas Tellander, han som startade Storytel.
+
+**Arianna Bommarco** — 00:18:19
+
+Och det är ju också någon slags översättning och jag tror den heter någon sån ”Go read” eller någonting sånt. ”Go read” tror jag.
+
+**Oivvio Polite** — 00:18:28
+
+Go read.
+
+**Arianna Bommarco** — 00:18:30
+
+Jag har inte riktigt fattat vad det är, men jag tror det...
+
+**Oivvio Polite** — 00:18:34
+
+Men det ligger i samma härad som New Axed?
+
+**Arianna Bommarco** — 00:18:36
+
+Mm, fast det här riktar sig till vem som helst, tror jag. också få din bok inläst med en AI-röst. Jag tror att de håller på med översättningar också.
+
+**Oivvio Polite** — 00:18:49
+
+Mmm. Mm. Jag fattar. Mm.
+
+**Arianna Bommarco** — 00:18:54
+
+För jag tror att det där är den stora frågan, det med översättningarna.
+
+**Arianna Bommarco** — 00:19:05
+
+Det är det alla säger. Åh, tänk när vi bara kan trycka på en knapp och så får vi en bok översatt och så släpper vi den och så tjänar vi skitmycket pengar utan att behöva jobba.
+
+**Arianna Bommarco** — 00:19:15
+
+Men även om vi lyckas med det, med de här AI-översättningarna, vilket jag tror att vi ligger ändå, för viss litteratur kommer det säkert funka, men för viss litteratur kommer det aldrig funka.
+
+**Oivvio Polite** — 00:19:20
+
+Mm.
+
+**Arianna Bommarco** — 00:19:34
+
+Eller jo, det kanske det visst kommer göra, men jag vet inte. Då kommer vi ha ett annat problem, och det är att vi kommer ha en marknad som är helt galen i hur mycket vi har att välja mellan. Redan nu är det en överutgivning som är helt bananas. Det ges ut så mycket böcker.
+
+**Oivvio Polite** — 00:20:03
+
+Hur tänker ni på ert förlag runt det? Vad är den ekonomiska strategin runt att ha så omfattande utgivning?
+
+**Arianna Bommarco** — 00:20:16
+
+Alltså, jag är inte så jävla bra på ekonomi och sånt. Jag har liksom inte riktigt... Men jag tror lite grann att det handlar om... Alltså jag...
+
+**Arianna Bommarco** — 00:20:36
+
+Börsnoterade företag liksom.
+
+**Arianna Bommarco** — 00:20:40
+
+Man ska alltid växa.
+
+**Oivvio Polite** — 00:20:42
+
+Ja. Men jag menar, att ha ett strikt ekonomistiskt perspektiv skulle också kunna betyda att vi satsar på färre titlar, men där vi tror att varje enskild titel har större ekonomisk potential. Bookmarked.
+
+**Arianna Bommarco** — 00:20:59
+
+Det finns ju såna förlag som gör det som är väldigt framgångsrika, som Bookmark till exempel. Bookmark? Ja, Bookmark.
+
+**Oivvio Polite** — 00:21:08
+
+Bookmark.
+
+**Arianna Bommarco** — 00:21:12
+
+Bookmark. De har ju några av de mest säljande författarna. De har Sofie Sarenbrant, Denise Rydberg, Katarina Wennstam som säljer sjukt mycket, de har Pascal Engman,
+
+**Arianna Bommarco** — 00:21:31
+
+och de har några sådana stora, några av Carina Bergfeldt, tror jag, som skriver deckare eller någon roman eller någonting. Och de har en ganska liten utgivning, men har väldigt högprofilerade författare. Men kanske också... Ja, jag vet inte hur de har lyckats med det.
+
+**Oivvio Polite** — 00:21:53
+
+Vad betyder det idag att vara en högprofilerad författare? Vad betyder det idag att vara en högprofilerad författare?
+
+**Oivvio Polite** — 00:22:05
+
+Jag tänker att för fyrtio år sedan, då kanske det betydde att du är en person, en författare som kan förväntas bli recenserad på de stora dagstidningarna, som befinner dig på ett etablerat förlag, som får priser och så vidare. Men vad är det idag att vara en högprofilerad författare?
+
+**Arianna Bommarco** — 00:22:28
+
+Jag tror så här... Jag har tänkt jättemycket på det.
+
+**Arianna Bommarco** — 00:22:36
+
+Författaridentiteten är ju väldigt viktig för författarna.
+
+**Oivvio Polite** — 00:22:39
+
+Mm.
+
+**Arianna Bommarco** — 00:22:43
+
+Jag skulle säga att naturligtvis handlar det om försäljning och att ligga etta på topplistor. Och så handlar det om hur mycket PR och hur man når ut medialt.
+
+**Oivvio Polite** — 00:23:03
+
+Okej, så är jag tillbaka.
+
+**Arianna Bommarco** — 00:23:04
+
+Nu försvinner du.
+
+**Arianna Bommarco** — 00:23:11
+
+Det är på nåt vis ... Det är vissa som alla vet vilka de är. Som Camilla Läckberg eller Jonas Gardell. Jag var inne ... För kanske tio år sen så hade ju ...
+
+**Oivvio Polite** — 00:23:23
+
+Jag var inne, för kanske tio år sedan så hade ju Adlibris startat en fysisk bokhandel på Kungsgatan.
+
+**Oivvio Polite** — 00:23:34
+
+Kommer du ihåg det? Jag var inne där och kollade och slogs av att det kändes som att nästan alla böcker som var frontade var av författare som det fanns någon slags medial snurr runt. Oavsett.
+
+**Arianna Bommarco** — 00:23:48
+
+Så är det ju jättemycket.
+
+**Oivvio Polite** — 00:23:51
+
+Det är det vi lever i nu, kan man säga.
+
+**Arianna Bommarco** — 00:23:55
+
+Fast det är en sanning med modifikation. Det är det som de frontar i bokhandeln.
+
+**Oivvio Polite** — 00:24:01
+
+Mm.
+
+**Arianna Bommarco** — 00:24:02
+
+Men folk som redan har tagit det där steget och till exempel har en ljudboksapp, Storytel till exempel. Där är det ju författare som är helt okända, som säljer sjukt mycket. Som jag har jobbat med en som heter Christina Larsson. Och så fort hon släpper en ny bok på...
+
+**Arianna Bommarco** — 00:24:33
+
+i ljud, så åker den rakt upp på topplistan.
+
+**Oivvio Polite** — 00:24:37
+
+Jag fattar.
+
+**Arianna Bommarco** — 00:24:39
+
+Folk vet inte vem hon är. För hon är stor i ljud, inte i print.
+
+**Arianna Bommarco** — 00:24:52
+
+Jag tycker att det börjar bli mer och mer skillnad på vad som är ljud och vad som är print. Det diskuteras också mycket i branschen.
+
+**Arianna Bommarco** — 00:25:04
+
+Adlibris kommer ju starta en ny butik på Drottninggatan efter jul. En flaggskeppsbutik, skitstor, i två våningar på typ tusen kvadratmeter.
+
+**Oivvio Polite** — 00:25:30
+
+Bokhandeln är inte död och pappersboken är inte död.
+
+**Arianna Bommarco** — 00:25:34
+
+Nej, absolut inte. Alla förlagen slog ju typ rekord i hur många böcker de sålde på Bokmässan.
+
+**Oivvio Polite** — 00:25:42
+
+Spännande.
+
+**Arianna Bommarco** — 00:25:45
+
+Det såldes sjukt mycket böcker och böckerna tog slut.
+
+**Arianna Bommarco** — 00:25:53
+
+Det var folk som fick åka och öppna lager på natten, så de fick köra ner extra till Göteborg från boklagret med fler böcker, för att det skulle finnas på söndagen.
+
+**Arianna Bommarco** — 00:26:10
+
+Så nej, boken är absolut inte död. Den yngre generationen, det är också motsägelsefullt, för de vill ju läsa i papper.
+
+**Arianna Bommarco** — 00:26:22
+
+Det som man har pratat om är hotet mot de svenska förlagens printutgivning. Det är att i Sverige köper folk så mycket böcker på engelska. Jag tror att i bokhandeln ligger det uppe till ungefär tjugo procent som är försäljning på engelska. Och den ökar hela tiden.
+
+**Oivvio Polite** — 00:26:50
+
+Mm.
+
+**Arianna Bommarco** — 00:26:51
+
+Och det är en jättestor utmaning, för det gör också att det här som trendar på TikTok, de ungdomarna vill inte, det är ju mycket romanticy och romance. Det vill inte ungdomarna läsa på svenska, utan de vill läsa det på originalspråk.
+
+**Oivvio Polite** — 00:27:14
+
+Och det handlar inte om att de inte vill vänta på översättningen, utan de vill bara ha det i original.
+
+**Arianna Bommarco** — 00:27:18
+
+Nej, det handlar inte om det.
+
+**Arianna Bommarco** — 00:27:22
+
+utan det handlar om att de vill läsa det på originalspråket.
+
+**Arianna Bommarco** — 00:27:29
+
+Sen kanske deras mamma vill läsa det på svenska.
+
+**Oivvio Polite** — 00:27:36
+
+Min dotter, femtonåriga Perla, har läst alla Heated Rivalry-böckerna den här sommaren. Och det är ju på engelska.
+
+**Arianna Bommarco** — 00:27:44
+
+Det är precis så. Och de är ibland förfärliga. Jag vet inte, Heated Rivalry, men det är väl nåt sånt gaytema i den?
+
+**Oivvio Polite** — 00:27:54
+
+Det är homosexuella ishockeyspelare.
+
+**Arianna Bommarco** — 00:27:57
+
+Ja, precis.
+
+**Oivvio Polite** — 00:27:58
+
+Det är tydligen en jättestor genre. Det finns inte bara den här serien, utan det finns jättemånga serier om homosexuella ishockeyspelare.
+
+**Arianna Bommarco** — 00:28:06
+
+Men så är det ju. Det är en helt egen värld, i princip. Och jag har varit så här, okej, ska jag försöka ge mig in i det träsket och försöka hitta liksom... Och jag bara till slut kände att nej, där kan man säga att överblicken är. Hittar du en app som kan hitta överblick hur man får det att flyga?
+
+**Arianna Bommarco** — 00:28:38
+
+Eller knäcker den liksom.
+
+**Arianna Bommarco** — 00:28:44
+
+Sports romance.
+
+**Oivvio Polite** — 00:28:49
+
+Så, ja, jag fattar. Om man kunde förutspå vad som ska bli hett på Booktok, då skulle man ha en bra grej.
+
+**Oivvio Polite** — 00:29:01
+
+Menar du?
+
+**Arianna Bommarco** — 00:29:01
+
+Ja, men det har ändå visat sig att... Det är det man pratar om ganska mycket.
+
+**Arianna Bommarco** — 00:29:14
+
+Branschen. I Sverige är vi ju unika för att vi är ett av få länder som har strömningstjänster för ljudböcker. I de andra länderna köper man fortfarande stickevis.
+
+**Arianna Bommarco** — 00:29:29
+
+Ja, precis. Och där håller förlagen emot jättemycket för strömningstjänsterna att etablera sig. Vissa förlag har, jag tror det är Penguin,
+
+**Arianna Bommarco** — 00:29:45
+
+överhuvudtaget inte låter sina böcker finnas på strömningstjänster.
+
+**Oivvio Polite** — 00:29:49
+
+Mm.
+
+**Arianna Bommarco** — 00:29:51
+
+Men Storytel har ju i omgångar försökt att etablera sig. Ett tag hade de jätteaggressivt och bara, vi ska in i Frankrike, vi ska in i... Det var så många länder de skulle etablera sig i. Och sen så tror jag att det gick inte så bra och då var de tvungna att backa. Och så tar de marknad för marknad. Så ett land där det växer väldigt mycket nu är Polen. Men Polen är också komplicerat för de har så många olika ljudbokstjänster.
+
+**Arianna Bommarco** — 00:30:28
+
+Ett problem är att samla in, både för förlagen och för författare och allting,
+
+**Oivvio Polite** — 00:30:34
+
+Mm. Mm. Mm. Mm.
+
+**Arianna Bommarco** — 00:30:34
+
+Det är att samla in data och royalty från alla olika tjänsterna. De pengarna du ska få in, som författare, det är klart att det är förlaget som betalar ut din royalty, men då ska förlaget samla in från så många olika länder, eller från så många olika plattformar. Och alla har sina olika perioder också. Vissa betalar en gång om året, vissa betalar en gång i månaden, vissa betalar en gång i kvartalet. Alltså... Fattar.
+
+**Oivvio Polite** — 00:31:12
+
+Fattar.
+
+**Arianna Bommarco** — 00:31:13
+
+Så det, och där, den, exempelvis. I Sverige har vi ju bara tre, ja, och nu blir det ju snart bara två tjänster som är av för att Bonniers har ju köpt Nextory.
+
+**Oivvio Polite** — 00:31:28
+
+Så, Nextory går upp i, vad heter det?
+
+**Arianna Bommarco** — 00:31:34
+
+Förmodligen. Det är fortfarande på Konkurrensverket.
+
+**Oivvio Polite** — 00:31:40
+
+Mm.
+
+**Arianna Bommarco** — 00:31:44
+
+Men det kommer inte att finnas. Jag har jättesvårt att tro att de skulle ha två känslor som är så lika. Och då börjar de närma sig Storytel. För Storytel har alltid varit störst.
+
+**Arianna Bommarco** — 00:31:58
+
+Men... Vad var det jag skulle säga? Jo, och sen är ju då... Jag tror, jag vet inte, jag killgissar, men att Den våta drömmen för ljudbokstjänsterna är naturligtvis att nå ut i den anglosaxiska världen och Tyskland, skulle jag gissa.
+
+**Oivvio Polite** — 00:32:26
+
+Hur ser det ut i Tyskland nu då?
+
+**Arianna Bommarco** — 00:32:28
+
+Audible.
+
+**Arianna Bommarco** — 00:32:32
+
+Tror jag de lyssnar. Sen är det också att vi i Sverige ligger så framme i tech. Vi älskar våra telefoner så mycket. Vi gör det nog mer än man gör i andra länder.
+
+**Arianna Bommarco** — 00:32:46
+
+I Sverige har man tagit till sig ljudboken på ett sätt som man inte har. Finland är det enda som klår Sverige i ljudbokslistning.
+
+**Oivvio Polite** — 00:32:52
+
+Mm.
+
+**Arianna Bommarco** — 00:32:58
+
+Danmark är nog också okej, men det är ett så litet land. Och i Norge är allting så jättestatligt reglerat.
+
+**Arianna Bommarco** — 00:33:09
+
+Och sen är Holland också ett land där Storytel är väldigt etablerat. Och i Finland är Bookbeat större än Storytel. Det är ett av de få ställena där Bookbeat är större än Storytel. Det där med ljudböckerna och i princip all genrelitteratur, förutom de här
+
+**Arianna Bommarco** — 00:33:35
+
+Romanticy, den genren, Tiktok-fenomen, böckerna så är i princip all genrelitteratur i ljud som de konsumeras mer än att de köps.
+
+**Oivvio Polite** — 00:33:50
+
+Är det det som blir splittringen nu? Att genrelitteraturen blir ljud och det mer höglitterära blir tryckt?
+
+**Arianna Bommarco** — 00:33:59
+
+Ja, jag tror att det är en splittring. Det som är utmaning för förlagen är att förlagen jobbar med alla format.
+
+**Oivvio Polite** — 00:34:14
+
+Varför är det en utmaning då egentligen? Kan man inte bara ta så här, vi har vissa som vi kör här och andra som vi kör här?
+
+**Arianna Bommarco** — 00:34:24
+
+Jo, och det gör ju förlagen också. Vissa görs ju bara i ljud, eller vissa böcker görs bara i papper. Gör vi en illustrerad fakta, så kanske inte den kommer som ljudbok.
+
+**Oivvio Polite** — 00:34:37
+
+Nej, det är svårt.
+
+**Arianna Bommarco** — 00:34:39
+
+Ja, det finns liksom ingen poäng. Men då sitter du helt plötsligt med jävligt små marginaler på din bok. Du vill ju ha så många...
+
+**Oivvio Polite** — 00:34:50
+
+Det blir två produktionskostnader kan man säga.
+
+**Arianna Bommarco** — 00:34:52
+
+Ja, det blir det ju. Folk säger att det är ganska dyrt att göra en ljudbok. Det kostar lika mycket som att göra en pappersbok.
+
+**Oivvio Polite** — 00:35:04
+
+Om man ska ha en bra inläsare, det kanske ska finnas någon som redigerar eller ger regiinstruktioner.
+
+**Arianna Bommarco** — 00:35:13
+
+Ja, vissa spelas in i studio, precis, med en ljudtekniker. Det är alltid någon som redigerar dem efteråt, och så korrekturläses de också, eller lyssnas efteråt.
+
+**Oivvio Polite** — 00:35:23
+
+Mm.
+
+**Arianna Bommarco** — 00:35:36
+
+Så det är både korrekturlyssning och... Utmaningen är också, tror jag, det här är också lite min gissning. Jag jobbade på förlag när ett förlag bara gjorde böcker. Och så gjorde man bara pappersböcker. Den processen är ganska lätt att överblicka.
+
+**Arianna Bommarco** — 00:35:58
+
+Du har bara ett format, och sen blir det formatet kanske också... Sen kanske du har två format, för det blir en pocket också efter nåt år, eller så var det då. Men nu har du helt plötsligt, från start, tre format.
+
+**Oivvio Polite** — 00:36:17
+
+För att ljud är alltid med i princip.
+
+**Arianna Bommarco** — 00:36:19
+
+I princip alltid, ja. Och så har du papper, ljud och e-bok.
+
+**Arianna Bommarco** — 00:36:31
+
+Och ibland så blir man tokig på alla formaten liksom. Och då ska man ha olika fronter och så ska man ha... Alltså det är mycket mer admin runt alltihopa.
+
+**Oivvio Polite** — 00:36:45
+
+Jag fattar.
+
+**Arianna Bommarco** — 00:36:46
+
+Jag fattar. Men förlagen är liksom inte uppbyggda riktigt på... utifrån alla formaten. För att redaktionerna ser ju nästan likadana ut som de gjorde tidigare.
+
+**Oivvio Polite** — 00:36:58
+
+Hur ser en redaktion ut då?
+
+**Arianna Bommarco** — 00:37:00
+
+Det är väldigt olika på olika förlag. Men det är ofta en redaktionschef som är den som är redaktionsansvarig och har överblick. Men det är väldigt olika tror jag faktiskt. Sen är det några förläggare. På mitt förlag har vi många anställda redaktörer.
+
+**Oivvio Polite** — 00:37:23
+
+Mima.
+
+**Arianna Bommarco** — 00:37:24
+
+Men på många förlag har de inga anställda redaktörer alls, utan det är bara frilansare. Och sen är formgivarna också frilansare. Det är nästan inget förlag som har en anställd formgivare.
+
+**Arianna Bommarco** — 00:37:43
+
+Jag vet inte om Bonniers har någon fortfarande.
+
+**Oivvio Polite** — 00:37:46
+
+Jag känner Nina Ulmaja och vet att hon var länge på Bonniers, men nu är hon egen sedan kanske tio år.
+
+**Arianna Bommarco** — 00:37:53
+
+Ja, men precis. Hon var ju högsta hönset på Bonniers.
+
+**Arianna Bommarco** — 00:38:05
+
+Så det är mycket planering kring själva produktionen. Det är sju miljoner deadlines för olika grejer. Nu ska omslaget vara klart.
+
+**Oivvio Polite** — 00:38:30
+
+Mm. Mm.
+
+**Arianna Bommarco** — 00:38:32
+
+Nu ska omslaget till ljudboken var klar, nu ska manuset vara klart för det ska till inläsning, nu ska det vara klart för det ska till tryck, nu ska det vara... Och det är kanske jag som är liksom... Alltså jag har inte mitt fokus på admin, så för mig blir admin ofta det jag gör. Oj då, är det deadline? För att jag har mitt fokus nån annanstans.
+
+**Oivvio Polite** — 00:39:03
+
+Så du tänker att du har ditt fokus på att hitta bra manus, få in bra manus, bedöma manus och inte alla de här fem tusen andra... Jaha, okej.
+
+**Arianna Bommarco** — 00:39:15
+
+Nej, och jag är också en person som har noll kontrollbehov. Så jag är en duktig redaktör. Bra, tack. Varsågod. Medan någon annan kanske måste sitta och känna att nu måste de se. Har hon gått igenom det här? Har hon gjort det?
+
+**Arianna Bommarco** — 00:39:38
+
+Utan jag är mer så, hej, det datumet ska ni vara klara. Tack så mycket.
+
+**Oivvio Polite** — 00:39:45
+
+Och oftast så är de det för att... Och då jobbar redaktören i ett samarbete med författaren om manusändringar.
+
+**Arianna Bommarco** — 00:39:51
+
+Om det blir strul någonstans på vägen så hör av er. Då pratar vi. Och så stöttar jag.
+
+**Arianna Bommarco** — 00:40:13
+
+Jag går först igenom manuset med författaren och gör de stora
+
+**Oivvio Polite** — 00:40:18
+
+Mm.
+
+**Arianna Bommarco** — 00:40:20
+
+Alltså en manusutvecklingsläsning.
+
+**Arianna Bommarco** — 00:40:26
+
+Och sen så gör redaktören det mer finstilta. Redaktörsarbetet är väldigt...
+
+**Arianna Bommarco** — 00:40:40
+
+Jag har jobbat ganska mycket som redaktör också.
+
+**Arianna Bommarco** — 00:40:44
+
+Det är ganska slitigt.
+
+**Arianna Bommarco** — 00:40:50
+
+önskat också att det fanns, och det tror jag kommer komma, men att det finns liksom... Vi jobbar ju i Word, som är världens sämsta uppfinning ever. Så jävla... Alltså det känns verkligen som ett sånt gammalt skolprogram från artonhundratalet.
+
+**Oivvio Polite** — 00:41:11
+
+Vad är det som är dåligt med Word tycker du?
+
+**Arianna Bommarco** — 00:41:16
+
+Ja, alltså dels är det så här att det Bara du öppnar och tittar så har du en jävla massa flikar, och sen har du en jävla massa flikar till. Och du vet aldrig vad flikarna är till för. Det är liksom inte överhuvudtaget... Ja, men så här till exempel.
+
+**Arianna Bommarco** — 00:41:43
+
+Till exempel om nån har gjort ett indrag som ligger fel i Word. och så vill du bara ta bort det indraget. Du vill inte ändra nåt annat i texten. Då måste du gå en jävla wordkurs för att fatta hur man gör det.
+
+**Oivvio Polite** — 00:41:59
+
+Mm.
+
+**Arianna Bommarco** — 00:42:00
+
+Det är liksom inte intuitivt nånstans.
+
+**Arianna Bommarco** — 00:42:05
+
+Jag fattar. Nu är det många författare som skriver i andra typer av program, som i Scrivner vad de nu heter. Jag har försökt skriva i dem också, men de är hopplösa, tycker jag. Men det är mycket en vanesak. Vi jobbar så mycket i Word, och redaktörerna jobbar så mycket i Word. Och där tänker jag att man hade velat ha nånting som är mycket mer automatiserat. Och det kanske man kan göra i AI nu, tanka in... Jag vet inte, jag har aldrig provat. Men ta bort alla dubbla punkter. Ta bort alla ”rensa”.
+
+**Oivvio Polite** — 00:42:51
+
+Textstäd.
+
+**Arianna Bommarco** — 00:42:57
+
+Och på något vis kanske också gör en grovredigering.
+
+**Arianna Bommarco** — 00:43:06
+
+Jag tänker mig en grovredigering där du kan gå in och godkänna eller där du ser vad den har gjort, förstår du vad jag menar? Inte bara så att tvätta texten och så vet man inte för att man kanske inte har läst grundtexten, men att man kan se de två versionerna mot varandra.
+
+**Oivvio Polite** — 00:43:29
+
+Men när du säger att alla jobbar jättemycket i Word, är det då så att man mailar Word-dokument fram och tillbaka? Hur tycker du att Google Docs står sig mot Word?
+
+**Arianna Bommarco** — 00:43:39
+
+Och vissa jobbar med delade, alltså Google Docs.
+
+**Oivvio Polite** — 00:43:48
+
+För då är det i varje fall att man slipper det där mejlandet tänker jag.
+
+**Arianna Bommarco** — 00:43:53
+
+Ja, jag har faktiskt haft själv ett manus. Var det Google Docs? Eller så var det nåt delat Word, eller vad fan det var. Alltså, jag minns inte vad det var.
+
+**Oivvio Polite** — 00:43:59
+
+Mm.
+
+**Arianna Bommarco** — 00:44:05
+
+Det var ju länge sen. Och jag var inte så, liksom...
+
+**Arianna Bommarco** — 00:44:10
+
+Jag var inte så bra på det, men det kanske är ett bättre sätt att jobba på. Jag vet inte, men det jag är rädd för med det är att man behöver ha väldigt bra koll på vilka versioner. Redaktörerna jobbar väldigt mycket med spåra ändringar som man kan se.
+
+**Oivvio Polite** — 00:44:30
+
+Mm.
+
+**Arianna Bommarco** — 00:44:39
+
+Att nån kan gå in och ändra nånting utan att det syns. Alltså, jag vet inte. Jag vet inte.
+
+**Arianna Bommarco** — 00:44:50
+
+Men det mejlas fram, och sen är det så, vissa författare, du vet. Du får tre kapitel, och sen så... Oj, nej, men det... Och så sitter man och jobbar med det, och så bara... Ja, men jag har skrivit om slutet nu.
+
+**Oivvio Polite** — 00:45:02
+
+Mm. Mm. Mm. Mm. Mm. Mm. Mm. Fattar.
+
+**Arianna Bommarco** — 00:45:04
+
+Det är inte så ofta det händer, faktiskt. Det är olika processer för olika författare, men redigeringsbiten är rätt tung, tycker jag.
+
+**Arianna Bommarco** — 00:45:18
+
+I och med att det görs så mycket böcker och marginalerna är så små, så är det så mycket man ska hinna. Redaktörerna ska hinna väldigt mycket.
+
+**Oivvio Polite** — 00:45:36
+
+Kan du tänka på fler funktioner som du hade velat se i ett textredigeringsverktyg?
+
+**Oivvio Polite** — 00:45:50
+
+Du pratade om textstädning och sen så...
+
+**Arianna Bommarco** — 00:46:04
+
+Upprepningar, att den skulle kunna leta efter upprepningar, och då skulle den inte bara kunna leta efter ord som är upprepade, utan även leta efter För det är också en sån sak som författare gör hela tiden. De skriver samma sak tre gånger. De skriver ”hon var nervös”, ”hon var svettig på ryggen” och ”hon darrade på händerna”. Och då skulle det faktiskt bara räcka.
+
+**Oivvio Polite** — 00:46:36
+
+Eller staplar tre adjektiv på varandra.
+
+**Arianna Bommarco** — 00:46:39
+
+Ja. Alltså att man hittar den typen av upprepningar.
+
+**Arianna Bommarco** — 00:46:48
+
+Som att det faktiskt kan vara en sak som att de beskriver nånting som har hänt i boken. En person dog. Blev mördad, säger vi om det är en deckare. Då kommer det tillbaka. på flera olika ställen. Men det här vet ju läsaren redan. Upprepningar av saker som läsaren redan vet. Den typen av saker skulle man ju gärna vilja ha.
+
+**Arianna Bommarco** — 00:47:28
+
+En annan sak som jag jättegärna skulle vilja ha, det är att vi jobbar väldigt mycket i
+
+**Arianna Bommarco** — 00:47:42
+
+Och det kanske man kan göra i nån sluten AI-miljö, jag vet inte. Men nu görs det ju väldigt mycket serier. Sofie Sarenbrant, som har en serie på tio eller tolv böcker, hon gick ut på Facebook, det var ganska många år sen nu, där hon bad att hon skulle anställa en person som bara skulle läsa igenom alla hennes böcker för att gå igenom alla vad karaktärerna hette.
+
+**Arianna Bommarco** — 00:48:13
+
+så att saker och ting inte upprepade sig.
+
+**Oivvio Polite** — 00:48:16
+
+Eller diffar på, antar jag.
+
+**Arianna Bommarco** — 00:48:18
+
+Ja, att man kan få en bra... Hon ville ju att nån skulle göra typ en karaktärsbibel.
+
+**Arianna Bommarco** — 00:48:27
+
+Och också lite så här att man får mer, när det är stora textmassor,
+
+**Oivvio Polite** — 00:48:40
+
+Att kunna få hjälp med att få en överblick.
+
+**Arianna Bommarco** — 00:48:51
+
+Jag har varit med om att någon har kört i något AI-väg, gett en summering av tre böcker eller vad det var.
+
+**Oivvio Polite** — 00:49:06
+
+Mm.
+
+**Arianna Bommarco** — 00:49:08
+
+Och det var böcker som jag faktiskt hade läst, så jag visste ju vad de här böckerna var. Och när jag såg vad AI hade, det här var ju visserligen, det var länge sedan nu, det var ett och ett halvt år sedan eller någonting sådant.
+
+**Arianna Bommarco** — 00:49:23
+
+Men när jag såg vad AI, hur AI berättade om texten, så var det ju skitdåligt. Det var en jättedålig summering och den hade plockat upp jätte...
+
+**Arianna Bommarco** — 00:49:38
+
+konstiga saker?
+
+**Oivvio Polite** — 00:49:44
+
+Ja, det kan jag livligt föreställa mig. Men också att det eventuellt går att göra bättre.
+
+**Oivvio Polite** — 00:49:55
+
+Vad var det för saker som den hade lyft upp och vad var det för saker som den hade missat, tycker du?
+
+**Arianna Bommarco** — 00:50:01
+
+Ja, men den gav kanske egentligen mer att svaren var så väldigt generiska
+
+**Arianna Bommarco** — 00:50:08
+
+Det var inte jag som gjorde detta själv, utan det var en annan som ställde frågorna som inte hade läst manuset.
+
+**Arianna Bommarco** — 00:50:16
+
+Men när jag såg svaren på de frågorna som han ställde så kunde jag känna att det där var inget bra svar på den frågan han ställde.
+
+**Oivvio Polite** — 00:50:25
+
+Nej.
+
+**Arianna Bommarco** — 00:50:29
+
+Jag minns inte riktigt, men det var nånting i alla fall som... Allting blev liksom lite, lite tramsigt.
+
+**Oivvio Polite** — 00:50:40
+
+Jag håller på att läsa den här boken just nu, som jag tycker är
+
+**Arianna Bommarco** — 00:50:46
+
+Jag ser inte, det blir spegelvänt.
+
+**Oivvio Polite** — 00:50:48
+
+Hon heter Judith Herrman.
+
+**Arianna Bommarco** — 00:50:50
+
+Ja, jag har läst, jag har jobbat med, eller... Ordfront gav ju ut hennes böcker.
+
+**Oivvio Polite** — 00:50:55
+
+Jaha, vad kul. Den här heter Hemma, den kom för några år sedan. Jag tycker den är helt trollbindande. Jag har väldigt svårt att se att AI skulle kunna förstå vad jag tycker är kvaliteten med den här texten. Däremot så tror jag att den skulle vara jättebra på att ge mig en överblick över händelseförloppet.
+
+**Arianna Bommarco** — 00:51:28
+
+Nu var det länge sen jag läste Judit Herrman. Jag har läst två av hennes novellsamlingar. Är det en roman? Det är en roman.
+
+**Oivvio Polite** — 00:51:39
+
+Det är en roman.
+
+**Arianna Bommarco** — 00:51:40
+
+Det var det ordförandet bara väntade på, att hon skulle skriva en roman hela tiden.
+
+**Oivvio Polite** — 00:51:44
+
+Mm. Mm.
+
+**Arianna Bommarco** — 00:51:45
+
+Hon skrev bara noveller. Men de var ju också helt magiska. Speciellt den ena novellsamlingen var bättre än den andra. Men i alla fall.
+
+**Arianna Bommarco** — 00:52:00
+
+Men jag tror inte det är ett problem. För den typen av litteratur är ofta de böcker som får ta lite tid. Jag tror att det i så fall handlar mer om genrelitteratur.
+
+**Oivvio Polite** — 00:52:15
+
+Mm.
+
+**Arianna Bommarco** — 00:52:22
+
+att det också kan hålla en bra kvalitet. Språkligt och dramaturgiskt. Där kommer också det här med formaten in som ett problem.
+
+**Arianna Bommarco** — 00:52:53
+
+inte att de tar ut varandra, men formaten konkurrerar egentligen inte så mycket med varandra. Folk säger att ljudboken slår ut pappersboken.
+
+**Oivvio Polite** — 00:53:00
+
+Nej. Det är andra läsare kanske, eller?
+
+**Arianna Bommarco** — 00:53:08
+
+Ljudboken har slagit ut pappersboken, när det gäller deckare till exempel. Den har ju slagit ut pocketen, som var ett jättestort format. Det är jättesvårt att sälja pocket nu. Det blir inga volymer.
+
+**Oivvio Polite** — 00:53:32
+
+Men ska vi backa lite till hur eran administrativa process ser ut nu då? När du typ scoutar manus, då inbillar jag mig att det är en inte så teknisk process och kanske inte att det finns så mycket behov av tekniskt stöd i det heller.
+
+**Arianna Bommarco** — 00:53:58
+
+Nej, för det är också så himla mycket, det är lite så som Christian säger, förlagsbranschen är så mycket en förtroendebransch.
+
+**Oivvio Polite** — 00:54:06
+
+Nej.
+
+**Arianna Bommarco** — 00:54:07
+
+Så det handlar jättemycket om relationer och knyta kontakter och nätverka och den typen av grejer. Och där tror jag faktiskt inte att det finns några digitala genvägar. Det kanske kommer i framtiden. Men å andra sidan, om det fanns ett sätt att scanna en marknad på ett enkelt sätt
+
+**Oivvio Polite** — 00:54:35
+
+Mm.
+
+**Arianna Bommarco** — 00:54:39
+
+Samla in, det kanske finns. Jag har inte ens letat efter det. Det kanske man kan göra via AI nu. Vilka böcker inom den och den genren har, av säg, franska författare är det som har gått bäst de senaste månaderna. Men då ligger det ju redan ett steg efter. För att du behöver känna förläggaren på det förlaget som vet att det här kommer bli en stor grej.
+
+**Oivvio Polite** — 00:55:10
+
+Mm.
+
+**Arianna Bommarco** — 00:55:15
+
+Och så behöver du ha den kontakten så att du får det manuset innan alla andra. Plus att ibland är det också så att det blir budgivningar mellan förlagen. Så där känner jag inte riktigt att det är...
+
+**Arianna Bommarco** — 00:55:36
+
+Det skulle vara just det här med manusinkorgen för vissa typer av förlag.
+
+**Oivvio Polite** — 00:55:48
+
+Just det, det pratade du om att ni har ganska mycket som kommer på spex så att säga, men att det är väldigt få av dem som ni går vidare med.
+
+**Arianna Bommarco** — 00:56:02
+
+Ja. Alltså en promille.
+
+**Arianna Bommarco** — 00:56:07
+
+Så var det på Ordfront också när jag jobbade där, det var väldigt lite man gick vidare med av alla de mängderna som kom in.
+
+**Oivvio Polite** — 00:56:14
+
+Men hur arbetskrävande är det att ta ställning till det som finns och hitta den där promillen?
+
+**Arianna Bommarco** — 00:56:38
+
+Jag tycker den är svår, för jag tror att det är väldigt olika för olika förlag. Jag tror att vissa förlag måste ha väldigt bra koll på sin manusinkorg, för att där kanske kommer sådana som har kommit in som Karin Smirnoff. Hon var ju en sån som bara skickade till manusinkorgen,
+
+**Oivvio Polite** — 00:57:04
+
+Mm.
+
+**Arianna Bommarco** — 00:57:07
+
+Men hon gick inte via en agent eller nånting. Hon sålde ju enormt. Det var en jättesuccé på Polaris.
+
+**Arianna Bommarco** — 00:57:24
+
+Men sen så tror jag att det finns förlag som knappt överhuvudtaget kollar i den där inkorgen.
+
+**Arianna Bommarco** — 00:57:32
+
+Men jag tror Bonniers har rätt bra koll på sin. Det är bara en killgissning.
+
+**Oivvio Polite** — 00:57:38
+
+Ja. Ja.
+
+**Arianna Bommarco** — 00:57:39
+
+efter att ha skickat manus och blivit refuserad på Bonniers. Jag har ju själv skickat till massa förlag och blivit refuserad så många gånger. Så till slut så lär man sig lite hur de funkar. Och på Bonniers, med en bok, fick jag svar efter bara någon vecka. Tack men nej tack. Och då vet jag att den har inte legat där.
+
+**Oivvio Polite** — 00:58:05
+
+Den har inte legat hos en lektör och väntat? Nej.
+
+**Arianna Bommarco** — 00:58:09
+
+Nej, de har plockat upp det direkt och läst det och tackat nej till det.
+
+**Arianna Bommarco** — 00:58:15
+
+Med samma manus så hann jag glömma att jag hade skickat det. Och så fick jag svar från två förlag. Kanske fyra, fem månader efter att jag hade skickat. Som ville ge ut det.
+
+**Oivvio Polite** — 00:58:34
+
+Mm. Mm.
+
+**Arianna Bommarco** — 00:58:39
+
+Och då blev jag jätteförvånad, för det ena förlaget var Rabén &ampamp, och det är ju fan det bästa barnboksförlaget. Och det var ju där den kom sen.
+
+**Arianna Bommarco** — 00:58:56
+
+Så manusinkorgen, där måste man nog ha lite koll på lite olika förlag.
+
+**Arianna Bommarco** — 00:59:04
+
+Jag tycker manusinkorgen är väldigt spännande, för jag tycker den håller lite, man håller lite pulsen på vad skriver folk där ute, vad är de, så. Och sen så tror jag att vissa förlag får väldigt mycket av det som blir refuserat på Norstedts och Bonniers, för det är där alla vill komma helst av allt, för de vill vara stora författare.
+
+**Oivvio Polite** — 00:59:33
+
+Så då menar du att folk skickar först till de mest namnkunniga förlagen.
+
+**Arianna Bommarco** — 00:59:40
+
+Och sen skickar de brett.
+
+**Oivvio Polite** — 00:59:42
+
+Ja. Toppar.
+
+**Arianna Bommarco** — 00:59:47
+
+Och det är ofta väldigt långa processer. Det kan vara att ett manus...
+
+**Arianna Bommarco** — 00:59:56
+
+Nu är det ju så att flera förlag gör så också, att det skickas ut ett automatsvar när du skickar in ditt manus. Och i automatsvaret så, har du inte hört från oss inom tre månader så betyder det att ditt manus inte har gått vidare i processen. För att man hinner inte sitta och... Alltså det är ingen som har möjlighet att sitta och återkoppla till de här författarna.
+
+**Oivvio Polite** — 01:00:16
+
+Nej, nej, nej.
+
+**Arianna Bommarco** — 01:00:18
+
+Eller?
+
+**Arianna Bommarco** — 01:00:20
+
+Så att manuskorgen är en sån här...
+
+**Oivvio Polite** — 01:00:26
+
+Men vad skulle man kunna få för tekniskt stöd där då egentligen?
+
+**Arianna Bommarco** — 01:00:31
+
+Man hade kanske kunnat få något mer formaliserat. Det hade man i och för sig kunnat be dem om, fast folk kan oftast inte själva formulera vad det är de har gjort.
+
+**Oivvio Polite** — 01:00:46
+
+Okej, du menar att man skulle vilja ha en abstract? Okej.
+
+**Arianna Bommarco** — 01:00:51
+
+Det får man ibland, men man kanske mer skulle vilja ha
+
+**Arianna Bommarco** — 01:00:56
+
+Genre, ålder på författaren, har den blivit publicerad tidigare?
+
+**Oivvio Polite** — 01:01:10
+
+Så egentligen är det bara som att man skulle behöva att de fyllde i ett formulär tillsammans med att de skickade upp sitt manus.
+
+**Arianna Bommarco** — 01:01:19
+
+Men det kan man ju inte heller... Det är också konstigt, för det kan man ju inte heller göra på nåt sätt. Varför inte det?
+
+**Oivvio Polite** — 01:01:24
+
+Varför inte det?
+
+**Arianna Bommarco** — 01:01:28
+
+Det är ju inte en människa man letar efter, man letar ju efter en berättelse. Egentligen vet jag inte om det är så intressant. Där tror jag att det inte finns någon genväg heller. Jag märker att med åren jag har suttit med manus i en korg, att jag blir bättre och bättre på att identifiera.
+
+**Oivvio Polite** — 01:01:52
+
+Mm.
+
+**Arianna Bommarco** — 01:01:58
+
+vad jag ska rensa bort.
+
+**Arianna Bommarco** — 01:02:08
+
+På mitt förra jobb plockade jag mycket debutanter. Jag gav ut mycket. Det var mer ett förlag som skulle byggas upp.
+
+**Arianna Bommarco** — 01:02:21
+
+Flera av dem som blir nominerade var på nomineringslistor för olika deckarpriser. Så någonstans måste man ju ändå tro på att man har fått näsa för det. Det har varit någon gång någon sagt att man skulle vilja ha en sortering.
+
+**Arianna Bommarco** — 01:02:48
+
+Bara att det sorterades in i genre eller...
+
+**Arianna Bommarco** — 01:03:00
+
+Men det kan ju inte vara så svårt. Det är egentligen bara att göra olika inkorgar. Förstår du?
+
+**Oivvio Polite** — 01:03:13
+
+Precis, om du har skrivit en spänningsroman, skicka den till den här adressen. Om du har skrivit...
+
+**Arianna Bommarco** — 01:03:18
+
+Ja, precis.
+
+**Oivvio Polite** — 01:03:25
+
+Eller ett formulär tillsammans med.
+
+**Oivvio Polite** — 01:03:31
+
+Vad skickar folk i för Word-filer?
+
+**Arianna Bommarco** — 01:03:43
+
+Jag har inte kollat hur det ser ut på vår hemsida, men på många förlag är det väldigt formaliserat. Det är det och det formatet, det och det radavståndet, tolv punkter, Times of Roman, att du ska skriva hur du ska ha det.
+
+**Oivvio Polite** — 01:04:08
+
+Då låter det som att de sen skriver ut det och läser det, eller? Nej.
+
+**Arianna Bommarco** — 01:04:12
+
+Nej, man skriver inte ut nånting. Eller ja, det vet jag inte om andra förläggare. Nej, det tror jag inte. När jag började jobba, vi gjorde ju allt på papper. Vi redigerade på papper, så skickade man post framåt på buntar.
+
+**Oivvio Polite** — 01:04:30
+
+Buntar.
+
+**Arianna Bommarco** — 01:04:30
+
+Helt galet, när man tänker efter.
+
+**Oivvio Polite** — 01:04:31
+
+Och det gör.
+
+**Arianna Bommarco** — 01:04:31
+
+Men nu har jag svårt att tro att
+
+**Arianna Bommarco** — 01:04:43
+
+att det är någon som sitter och skriver ut manus för elektörsläsning. Man kan ju också bara tanka in dem i en läsplatta. Så har du ändå någonting som är lite mer behagligt att läsa än att sitta på en skärm kanske.
+
+**Oivvio Polite** — 01:05:01
+
+Men vad är nästa steg i processen då? Ni har en manusinkorg, den måste ni beta av. Fastän det kommer väldigt lite där som är relevant för er.
+
+**Oivvio Polite** — 01:05:20
+
+Men hur mycket arbete är det att göra det där? Är det så att ni kan slänga bort - - - - - - - - - - - - - - .
+
+**Oivvio Polite** — 01:05:32
+
+Nej.
+
+**Arianna Bommarco** — 01:05:36
+
+Det är väldigt många som är rädda för att refusera, för tänk om det här är en jättestor succé, och så tackar jag nej till den. Och det gör alla förläggare. Det finns de som ligger sömnlösa för att piratförlaget tackade nej till Stieg Larsson, eller Bonniers tackade nej till Astrid Lindgren, eller whatever. Det ingår i arbetet. Så jag har inte den ångesten. Alltså på det sättet.
+
+**Oivvio Polite** — 01:06:06
+
+Mm.
+
+**Arianna Bommarco** — 01:06:10
+
+Och sen så tror jag att bokbranschen inte funkar riktigt på det sättet. Kanske lite mer med romaner, men med deckare och genrelitteratur så är det så många parametrar som måste spela in för att nånting ska slå igenom på nåt sätt. Men nej, det där är väldigt snabbt jobbat tycker jag.
+
+**Arianna Bommarco** — 01:06:35
+
+Jag ser inte det som betungande.
+
+**Oivvio Polite** — 01:06:42
+
+Okej, men jag tror att när vi sågs på Runell så pratade du om att ni hade en massa excellistor och hitan och bitan. Vad är det som är i de här Excellistorna då?
+
+**Arianna Bommarco** — 01:06:54
+
+Excel-listorna är ofta sånt här... Det är lite olika. Trello, Excel.
+
+**Arianna Bommarco** — 01:07:03
+
+Alltså, det är ju listor på utgivning. Vårlista, höstlista.
+
+**Oivvio Polite** — 01:07:14
+
+Mm.
+
+**Arianna Bommarco** — 01:07:15
+
+Och då har det varit Trello eller Excel.
+
+**Arianna Bommarco** — 01:07:23
+
+Ofta sitter folk med sina egna små listor och grejer. Mina titlar, mina projekt. Jag är så jävla dålig på admin, så jag fixar ingenting sånt. Sen finns det vissa förlag, de stora förlagen, som har sådana workflow-program som är specialdesignade.
+
+**Arianna Bommarco** — 01:07:46
+
+Och där är det ju också det att jag hade ju liksom...
+
+**Arianna Bommarco** — 01:07:59
+
+Det är så många som är inne i samma projekt.
+
+**Oivvio Polite** — 01:08:03
+
+Mm.
+
+**Arianna Bommarco** — 01:08:08
+
+Man har marknadsmänniskor, säljare, redaktörer, korrektörer. Det är så många som är inne i samma projekt. Och då är det ofta så mycket information som ska nå ut till alla som jobbar med projektet.
+
+**Arianna Bommarco** — 01:08:30
+
+Men sen handlar det ju så himla mycket om folk verkligen skriver in. Förstår du? För jag har jobbat som i Trello.
+
+**Oivvio Polite** — 01:08:35
+
+Mm.
+
+**Arianna Bommarco** — 01:08:39
+
+Ja, det var ju skitbra med Trello. Om folk hade uppdaterat det. Men när folk inte är uppdaterade, då är det ändå på den mänskliga faktorn, förstår du? Det är ändå det det faller på. Jag tror inte att det är verktyget i sig som är så jävla dåligt. Ja, men Trello är så jävla dåligt. Ja, eller?
+
+**Arianna Bommarco** — 01:08:56
+
+så är det för att folk inte är noggranna och går in och skriver att nu har jag ändrat datumet på den här deadlinen. Då måste jag skriva in det och så ska alla få en notis om att det har hänt.
+
+**Oivvio Polite** — 01:09:09
+
+Har ni något... Om jag tänker alla techbolag nu för tiden, eller sen många år, sen femton, tjugo år. jobbar i en väldigt liknande metodologi. Att man har så här driver vi projekt. Vi har ett femtonminutersmöte varje dag på morgonen där vi går igenom vad har vi för saker som vi tror att vi ska göra idag, vad gjorde vi igår,
+
+**Arianna Bommarco** — 01:09:45
+
+som vi tror att vi ska göra idag, vad gjorde vi igår, vad tror vi att vi ska göra imorgon.
+
+**Oivvio Polite** — 01:09:49
+
+Vad tror jag att vi ska göra imorgon? Och så en gång per vecka så drar man in nya saker.
+
+**Arianna Bommarco** — 01:09:54
+
+Den här veckan tror vi att vi kanske kan göra de här fem sakerna.
+
+**Oivvio Polite** — 01:09:54
+
+Den här veckan tror jag att vi kanske kan göra de här fem sakerna. Och sen så har man ett möte en gång i månaden när man pratar om mer övergripande riktlinjer. Men att man har en process just för att alla små detaljer inte ska falla mellan stolarna. för att man ska se till att dokumentationen om projektet hela tiden är uppdaterad. På dina arbetsplatser i förlagsvärlden, hur ser det ut med projekthantering på det? Finns det något sådant eller är det mer lösligt?
+
+**Arianna Bommarco** — 01:10:37
+
+Ja, det där är nog så himla... Det där har varit så olika. Alltså, tycker jag, på de olika förlagen. Ibland har det varit en skitbra redaktionschef som har örnkoll på allt. Och sen så har det visat sig, tror man, och sen så går den personen in i väggen så här klassiskt.
+
+**Oivvio Polite** — 01:10:55
+
+Mm. Mm. Mm.
+
+**Arianna Bommarco** — 01:11:01
+
+Och så helt plötsligt så upptäcker man att den har massa lokala egna små filer och grejer eller vad det nu är. Det som man har är ju oftast att man har ett redaktionsmöte som är typ en gång i veckan eller nånting. Där man pratar igenom alla...
+
+**Arianna Bommarco** — 01:11:24
+
+Jag hittar ingen korrekturläsare. Är det nån som har tips på en bra korrekturläsare? Den här boken är försenad. Och sen så har man ju ofta utgivningsmöte.
+
+**Oivvio Polite** — 01:11:38
+
+Där man fattar beslut om vad som ska...
+
+**Arianna Bommarco** — 01:11:38
+
+När man fattar beslut om vad som ska... Ja, där man pitchar sina idéer. På utgivningsmötena är det oftast bara förläggare, förlagschef, kanske någon marknadschef också är med. Det är lite olika vilka som är med. Men där pratar man mer innehåll. Och kanske mer, vad ska vi ha för slags böcker? Vad är nästa grej vi letar efter?
+
+**Oivvio Polite** — 01:12:07
+
+Mm.
+
+**Arianna Bommarco** — 01:12:10
+
+Ska vi fortsätta med det här författarskapet? På vissa förlag har de en struktur där redaktionschefen
+
+**Arianna Bommarco** — 01:12:32
+
+stämmer av med förläggare och så i enskilda samtal.
+
+**Oivvio Polite** — 01:12:45
+
+Okej, men det är ändå intressant. Det finns liksom inte en homogen kultur kring hur man administrerar sitt arbete.
+
+**Arianna Bommarco** — 01:12:49
+
+Nej, det tror jag inte. Jag tror det är lite olika.
+
+**Arianna Bommarco** — 01:12:54
+
+Ja, vissa förlag har redaktörer, som här. Men mitt förra förlag jag jobbade på hade ingen anställd redaktör. Eller så finns det förläggande redaktörer. Då gör de både förläggarjobbet... Det är ganska olika hur arbetet organiseras.
+
+**Oivvio Polite** — 01:13:20
+
+Mm.
+
+**Arianna Bommarco** — 01:13:26
+
+Men sen är ju ändå processen mer eller mindre densamma. Bokproduktionen är ju ändå förläggarläsning, redaktörsvändor.
+
+**Arianna Bommarco** — 01:13:45
+
+Men det är mycket samordning av projekten. För det är många som är inne i...
+
+**Arianna Bommarco** — 01:13:57
+
+Det är så många som jobbar med en bok. Det är fan knäppt egentligen.
+
+**Arianna Bommarco** — 01:14:03
+
+Det är förläggaren, det är redaktören, det är korrekturläsaren, det är ibland en sättare.
+
+**Oivvio Polite** — 01:14:09
+
+En sättare, alltså någon som jobbar in design typ.
+
+**Arianna Bommarco** — 01:14:12
+
+Ja.
+
+**Oivvio Polite** — 01:14:13
+
+Som gör inlagan.
+
+**Arianna Bommarco** — 01:14:14
+
+Ja, som gör inlagan. Förr i tiden var det ofta redaktörerna som gjorde inlagan. Jag har aldrig gjort det, för när jag jobbade på Ordfront så hade vi ju Vi hade ju en hel designavdelning, för de gjorde magasin, Ordfront Magasin.
+
+**Oivvio Polite** — 01:14:29
+
+Mm, mm, mm.
+
+**Arianna Bommarco** — 01:14:31
+
+Och de satte alla böcker. Så det var ju så jävla skönt, för då kunde man bara gå till dem. Hej, kan du sätta den här boken? Så man behövde aldrig lära sig det, och det blev mycket snyggare när de gjorde det, för de var ju formgivare. Och då, sättare vet jag faktiskt inte hur, det tror jag det är någon extern som jag vet inte. Och sen ska du ha nån som gör omslag och allting.
+
+**Oivvio Polite** — 01:15:05
+
+Mm.
+
+**Arianna Bommarco** — 01:15:07
+
+Sen har du ju nån som lägger upp allting på alla jävla tjänster.
+
+**Arianna Bommarco** — 01:15:17
+
+Och det har jag gjort också. Läggt upp digitala böcker.
+
+**Arianna Bommarco** — 01:15:26
+
+Då finns det någon, jag tror de heter Publison, som är ett sådant företag som är en digital distributör där du kan lägga upp på ett ställe och sen hamnar den överallt.
+
+**Oivvio Polite** — 01:15:36
+
+Mm. Mm. Mm. Mm. Mm.
+
+**Arianna Bommarco** — 01:15:39
+
+Den handlar på Bokus och Adlibris och Oddyball och den hamnar på Bokus Play.
+
+**Arianna Bommarco** — 01:15:54
+
+Apple, alla, allt. Det är också ett företag som har varit så jävla hopplöst. Där kan jag säga att hittade man en ersättare till dem, nu vet jag inte hur det är.
+
+**Oivvio Polite** — 01:16:16
+
+Till vilket? Den här distributörstjänsten?
+
+**Arianna Bommarco** — 01:16:19
+
+Ja. De var såna jävla clowner, förlåt mig. De hade världens sämsta... Alla var skitsura på dem, alla förlag.
+
+**Oivvio Polite** — 01:16:34
+
+Vad hette de? Public.
+
+**Arianna Bommarco** — 01:16:37
+
+De hette Publis... De har bytt namn så många gånger.
+
+**Arianna Bommarco** — 01:16:46
+
+De hette, vad fan hette de? Nu tror jag de heter We Do Books.
+
+**Oivvio Polite** — 01:16:51
+
+Mhmm.
+
+**Arianna Bommarco** — 01:16:52
+
+Jag måste bara kolla.
+
+**Arianna Bommarco** — 01:17:06
+
+Nej, då vet jag inte. Jag vet inte om det är det de heter.
+
+**Arianna Bommarco** — 01:17:15
+
+Och de distribuerar också
+
+**Arianna Bommarco** — 01:17:20
+
+De distribuerar även till... Nu vet jag inte hur det är nu, men förut var det så att de var de enda som distribuerade till biblioteken.
+
+**Arianna Bommarco** — 01:17:39
+
+Man var tvungen att gå via dem just för digitala format. Annars köper biblioteken in... Men ELIB?
+
+**Oivvio Polite** — 01:17:48
+
+Men Elib var ju jättestora för e-böcker till biblioteken.
+
+**Arianna Bommarco** — 01:18:20
+
+De hette tidigare Publison. Publison?
+
+**Oivvio Polite** — 01:18:23
+
+Publison.
+
+**Arianna Bommarco** — 01:18:25
+
+Precis. Digital distributionsplattform för förlag, bibliotek och bokhandlare i Norden.
+
+**Arianna Bommarco** — 01:18:41
+
+Axiell hette de från början. Axiell, Elib, Axiell. Det var det. Och det var Axial alla var så jävla förbannade på, för de var så jävla hopplösa.
+
+**Arianna Bommarco** — 01:18:56
+
+Och deras sånt där man laddade upp böcker.
+
+**Oivvio Polite** — 01:19:00
+
+Mm.
+
+**Arianna Bommarco** — 01:19:00
+
+För jag frilansade och jobbade på ett litet förlag där jag gjorde allt möjligt sånt där. Och det var rätt nyttigt för mig, för jag hade inte jobbat med digitala format alls. Så på det viset så så fattade jag hela distributionen kring digitala format som jag hade jättestor nytta av sen när jag blev förläggare för ljudböcker. Men då var Axiell så jävla dåligt. Och det var kanske ungefär fyra år sen.
+
+**Oivvio Polite** — 01:19:37
+
+Okej.
+
+**Arianna Bommarco** — 01:19:37
+
+Tre, fyra år sen ungefär. Och där vet jag inte, för jag vet att Publison Jag tror att de har skurit ner jättemycket och jag vet inte om de har någon slags kris eller vad det är de, eller WeDo-books eller vad de heter. Och där tror jag de har gjort sig av med folk. Jag tror att de höll på med någon utlandssatsning som inte riktigt funkade eller som inte blev som de trodde.
+
+**Arianna Bommarco** — 01:20:05
+
+Men det är också ett sånt där som jag tycker, kolla på det.
+
+**Oivvio Polite** — 01:20:09
+
+Mm.
+
+**Arianna Bommarco** — 01:20:10
+
+För där kanske liksom, Sen är det att de stora förlagen har ju också egna... Jag tror att de stora tjänsterna som Bokus... Jag gör ju liksom aldrig sånt längre, men jag tror att de har egna portaler där förlagen själva kan ladda upp. Men alla andra distributörer, alltså distribution är alltid ett
+
+**Arianna Bommarco** — 01:20:42
+
+alltid en jävla svår nöt att knäcka för böcker överhuvudtaget.
+
+**Oivvio Polite** — 01:20:46
+
+Mm.
+
+**Arianna Bommarco** — 01:20:48
+
+Alltså även fysiska böcker. Adlibris, nätbokhandlarna, är så jävla kassa.
+
+**Arianna Bommarco** — 01:20:59
+
+Så när du köper en bok på Adlibris så kanske du får vänta två veckor tills den kommer. För den ligger i något konstigt lager åt Tjotaheiti.
+
+**Oivvio Polite** — 01:21:14
+
+Jag tror att mycket som är i den här änden av processen kommer vara väldigt svårt för oss att ta oss an. Vi kommer nog vara tvungna att jobba i någon annan del av processen. För det här handlar så mycket om att upprätta avtal med stora företag och interfejsa med deras system och sådär. Det är en ganska hög tröskel tror jag. Nu har vi pratat en stund. Ditt och datt, högt och lågt. Och jag är väldigt tacksam för att jag fick prata med dig.
+
+**Oivvio Polite** — 01:22:02
+
+Och undrar om du har någon gammal kollega eller någon som jobbar i förlag av liknande storlek som du skulle kunna rekommendera? Som jag kan prata med härnäst.
+
+**Arianna Bommarco** — 01:22:19
+
+Ja, jag kan fundera lite faktiskt.
+
+**Arianna Bommarco** — 01:22:27
+
+Jag kommer inte på någon på rak arm, så jag måste fundera lite.
+
+**Oivvio Polite** — 01:22:28
+
+Varför det?
+
+**Arianna Bommarco** — 01:22:33
+
+Och så får jag återkomma. Grejen är den att jag tror egentligen att ni ska prata med folk som är högre upp än vad jag är.
+
+**Arianna Bommarco** — 01:22:49
+
+För att... Jag är så inne i det redaktionella, på nåt sätt.
+
+**Arianna Bommarco** — 01:23:04
+
+Och... Jag kan inte, eller jag har svårt... Vi är fortfarande kvar i mycket av, eller jag vet inte vad man skulle...
+
+**Oivvio Polite** — 01:23:15
+
+Så du menar till exempel redaktionschefer eller förlagschefer?
+
+**Arianna Bommarco** — 01:23:23
+
+Eller folk som har mer som kanske har mer en vision framåt om vart vi vad det är liksom som kanske har mer överblick över liksom ja men här ser vi, här har vi skitmycket kostnader liksom eller här har vi Tänk om man skulle kunna effektivisera den här biten, vad mycket man skulle tjäna då.
+
+**Oivvio Polite** — 01:23:49
+
+Mm.
+
+**Arianna Bommarco** — 01:23:55
+
+Utan jag tänker ju mer... Mitt är fortfarande mycket sånt här omvärldsbevaka, hålla igång intresset för allting som man håller på med. Det är rätt fluffigt. på det sättet.
+
+**Oivvio Polite** — 01:24:20
+
+Vem har de rollerna på din arbetsplats?
+
+**Arianna Bommarco** — 01:24:25
+
+Det är vår VD.
+
+**Arianna Bommarco** — 01:24:36
+
+Det tror jag generellt, att man skulle prata med VD-folk, om du får dem
+
+**Arianna Bommarco** — 01:24:47
+
+Och där vet inte jag, där tycker jag det är så svårt, för nu är vi i Storytel. Vadå, ägs ni av Storytel?
+
+**Oivvio Polite** — 01:24:55
+
+Vadå, ägs ni av Storytel?
+
+**Arianna Bommarco** — 01:24:57
+
+Ja, till åttio procent.
+
+**Oivvio Polite** — 01:25:00
+
+Varför hjälper inte de er med digital infrastruktur? Okej.
+
+**Arianna Bommarco** — 01:25:03
+
+Det gör de, men vi är väldigt nya in i Storytel. Vi har bara varit där ett år. Plus att vi är ett förlag, de är en strömningstjänst. Det är liksom inte samma typ av...
+
+**Arianna Bommarco** — 01:25:24
+
+Det är två olika grejer.
+
+**Oivvio Polite** — 01:25:25
+
+Jag fattar.
+
+**Arianna Bommarco** — 01:25:25
+
+Jag fattar. Och de är ju jättetech, såklart. De är ju ett techbolag.
+
+**Arianna Bommarco** — 01:25:37
+
+Men de sitter ju liksom inte och tänker på hur man kan effektivisera en redigeringsvända.
+
+**Oivvio Polite** — 01:25:48
+
+Jag känner att det är ganska lätt att se att det finns någonting här runt manusbearbetning som jag och Mats skulle kunna jobba med. Det här om folk sitter och skickar worddokument fram och tillbaka till varandra, det låter ju jättekonstigt tycker jag. Det låter ju helt bananas faktiskt.
+
+**Arianna Bommarco** — 01:26:14
+
+Varför då?
+
+**Oivvio Polite** — 01:26:16
+
+Därför att man...
+
+**Arianna Bommarco** — 01:26:18
+
+Så är det.
+
+**Oivvio Polite** — 01:26:20
+
+Jag ser framför mig att det blir som på nitti-talet när man skickar så här... Andra versionen... Eller sista versionen... Tre A!
+
+**Arianna Bommarco** — 01:26:39
+
+där tror jag också att du ska prata med redaktörer och författare. För att författare... Alltså... Jag vet inte. Det blir en helt annan diskussion egentligen.
+
+**Oivvio Polite** — 01:26:55
+
+Jag tänker i och för sig att författarna har så himla
+
+**Oivvio Polite** — 01:27:01
+
+Alltså alla författare har så olika processer och det är så himla så här, ja men vissa kan bara skriva på med den här sortens penna liksom.
+
+**Oivvio Polite** — 01:27:12
+
+Men jag tänker att det här är liksom ett steg efter det att ett manus, när ett manus ska börja jobbas med av andra människor än bara författaren, då tänker jag att då kan man hoppa ut ur författarens lilla
+
+**Oivvio Polite** — 01:27:28
+
+För det tänker jag är så himla individuellt, så himla svårt att påverka och få någon att byta process där.
+
+**Arianna Bommarco** — 01:27:34
+
+Men sen sitter vi i Word.
+
+**Oivvio Polite** — 01:27:36
+
+Sen sitter ni i Word.
+
+**Arianna Bommarco** — 01:27:40
+
+Det kanske är nåt förlag som jobbar i nåt annat format, men jag har aldrig varit med om det. Jag har aldrig varit med om en frilansande redaktör som säger att de inte jobbar i Word. Och jag har jobbat med jättemånga frilansare.
+
+**Arianna Bommarco** — 01:27:56
+
+Och knäcken i den...
+
+**Oivvio Polite** — 01:28:02
+
+Mm. Ja. Ja. Snälla. Mm.
+
+**Arianna Bommarco** — 01:28:07
+
+För Word känns väldigt, väldigt daterat. Tycker jag.
+
+**Arianna Bommarco** — 01:28:16
+
+Och sen också lite så... Ja, men ett riktigt schysst redigeringsverktyg, det blir jag lite sugen på. Där det finns nån slags...
+
+**Arianna Bommarco** — 01:28:32
+
+Det blir lite konstigt när det gäller text, men det finns en slags rumslighet i det. Att man kan ha redigering på olika nivåer i samma text.
+
+**Oivvio Polite** — 01:28:42
+
+Att man kan överblicka både större struktur och mer detalj.
+
+**Arianna Bommarco** — 01:28:51
+
+Och att det kanske också är dialogiskt, så som AI. Att den kan fråga. Jag ser att det här är så här och så här. Är det nånting du vill att jag ska rätta? Eller den typen av saker.
+
+**Arianna Bommarco** — 01:29:13
+
+Det hade varit sjukt spännande, faktiskt.
+
+**Oivvio Polite** — 01:29:13
+
+Cool, ja där tror jag det går att göra saker.
+
+**Arianna Bommarco** — 01:29:21
+
+Ja, för det finns ju också en stor fråga i... En stor fråga tycker jag är att man vill ju inte tanka in manus i AI. Nej, men där finns ju svenska... Som nu för det här intervjuverktyget som vi har det här samtalet i
+
+**Oivvio Polite** — 01:29:37
+
+Nej, men där finns ju svenska... Som nu för det här intervjuverktyget som vi har det här samtalet i.
+
+**Oivvio Polite** — 01:29:49
+
+Där har jag lagt till en transkriberingsfunktion. Och det är ju AI som gör, det är inte mina egna maskiner utan det är någon annans maskiner.
+
+**Oivvio Polite** — 01:30:01
+
+Det finns flera svenska företag, men det finns ett svenskt företag nu som heter Berget och då görs liksom all... all AI-bearbetning på det här företagets servrar och de är inte en amerikansk techjätte, utan de är ett svenskt företag under GDPR som har ganska hög svansföring kring sig, men vi samlar inte in andra människors data och tränar på den,
+
+**Oivvio Polite** — 01:30:40
+
+Så det tror jag känns ganska löst, eller ordnat.
+
+**Arianna Bommarco** — 01:30:57
+
+Det är väl kanske ett nytt word att jobba i. Hur det skulle kunna
+
+**Arianna Bommarco** — 01:31:18
+
+Nej, det är faktiskt en sak. Det var kanske mer när jag jobbade som redaktör än som förläggare. Just att jag kunde förbanna Word, att det var så jävla kass.
+
+**Oivvio Polite** — 01:31:29
+
+Mm. Mm.
+
+**Arianna Bommarco** — 01:31:37
+
+Jag vet inte hur man gör i andra länder, det kanske finns något verktyg. Författarna skriver ju ibland i Scrivner.
+
+**Arianna Bommarco** — 01:31:48
+
+måste de formatera om det, de måste exportera det till Word, och då har du också ett problem. Sen får de ju en läsning av mig, och då måste de gå igenom manuset i Word, och då kan de inte exportera tillbaka det till Scribner med mina kommentarer.
+
+**Oivvio Polite** — 01:32:11
+
+De kan inte exportera tillbaka den till Scrivener. De skulle vilja fortsätta jobba i Scrivener.
+
+**Oivvio Polite** — 01:32:28
+
+Finns det några andra, vid sidan av Scrivener, finns det några fler?
+
+**Arianna Bommarco** — 01:32:35
+
+Ja, det finns nåt mer som är rätt så använt. Sen kanske det finns gratisversioner också.
+
+**Oivvio Polite** — 01:32:43
+
+I Excel? Exotiskt?
+
+**Arianna Bommarco** — 01:32:44
+
+Jag har bara provat Scrivner och jag vet att det har vissa författare som skriver i det. Det finns till och med författare som skrivit sina böcker i Excel.
+
+**Arianna Bommarco** — 01:33:01
+
+Jens Lapidus påstod att han skrev Snabba cash i Excel.
+
+**Arianna Bommarco** — 01:33:07
+
+Ja, skitmärkligt. Jag vet inte hur han gjorde det.
+
+**Arianna Bommarco** — 01:33:11
+
+Den blev ju bra den boken, den sålde bra också.
+
+**Oivvio Polite** — 01:33:18
+
+Jag kunde räkna på upplagen redan på manusstadiet.
+
+**Oivvio Polite** — 01:33:28
+
+Spännande!
+
+**Arianna Bommarco** — 01:33:39
+
+Ja, jag hoppas du har fått lite input i alla fall.
+
+**Oivvio Polite** — 01:33:42
+
+Ja, supervärdefullt. Det känns som att jag i hela mitt vuxna liv har känt folk som jobbar i förlagssvängen och varit gift med en författare men jag har ändå haft ganska lite inblick i hur det faktiskt funkar där på insidan. Så det är väldigt bra. Just det.
+
+**Arianna Bommarco** — 01:34:02
+
+Ja, man kan ju liksom... Man kan läsa branschtidningen också. Där får man en del, liksom Svensk Bokhandel. Där får man lite överblick.
+
+**Oivvio Polite** — 01:34:13
+
+Mm. Mm.
+
+**Arianna Bommarco** — 01:34:16
+
+Många artiklar är låsta i den, men gå till bibblan och läs den.
+
+**Arianna Bommarco** — 01:34:23
+
+Eller som man också kan göra, vet man lite vad man ska fråga på, så frågar man AI så kommer all information även från de låsta artiklarna. Jag fattar inte hur det funkar, men det gör ju det.
+
+**Arianna Bommarco** — 01:34:38
+
+Och sen tycker jag att man ska ha lite koll på ljudboksformaten, de digitala formaten, såklart. Och se vad det finns för utmaningar med dem.
+
+**Oivvio Polite** — 01:34:56
+
+Men som du verkar ha beskrivit det här så går pappersboken bra och ljudboken går bra, men E-boken är lite... jag vet inte riktigt.
+
+**Arianna Bommarco** — 01:35:06
+
+Nej, den är mycket mindre i Sverige än vad den är i andra länder. Men det är nog för att där har ljudboken konkurrerat med e-boken. För e-boken har inte slagit alls på det sättet. och jag vet att för något år sedan i alla fall så skulle Cobo, de höll på att göra en jättelanseringssatsning för att de skulle öka, men den verkar bara ha dippat.
+
+**Oivvio Polite** — 01:35:30
+
+Ja, en sån har ju jag. Den heter Kobo.
+
+**Arianna Bommarco** — 01:35:44
+
+Men jag tror, och det finns säkert branschstatistik på det, Att det ökar lite i försäljning. Men det är lite samma sak där. Nu vet jag faktiskt inte hur det är med BookBeat, men Storytel hade ju en... De är väldigt eftertraktade. De har ju en sån.
+
+**Oivvio Polite** — 01:36:17
+
+Ja, de hade en läsplatta. Okej.
+
+**Arianna Bommarco** — 01:36:21
+
+På den kan du ladda ner allt innehåll som finns på Storytel.
+
+**Oivvio Polite** — 01:36:25
+
+På stort, va?
+
+**Arianna Bommarco** — 01:36:25
+
+Jag älskar ju den, för där känns det som att jag har tillgång till så mycket text gratis.
+
+**Arianna Bommarco** — 01:36:35
+
+Sen har väl biblioteken sina läsningar, men resten måste du ju köpa styckevis. Jag har haft Kobo också.
+
+**Arianna Bommarco** — 01:36:49
+
+och där var jag tvungen att köpa varenda bok.
+
+**Oivvio Polite** — 01:36:51
+
+Och typ till samma pris som en inbunden bok.
+
+**Arianna Bommarco** — 01:36:55
+
+Ja, ganska dyrt.
+
+**Oivvio Polite** — 01:36:58
+
+Det känns lite konstigt som konsument.
+
+**Arianna Bommarco** — 01:37:05
+
+Ja, fast jag tycker väl både och. Den stora produktionskostnaden ligger ju inte i tryckkostnaden. Den stora produktionskostnaden ligger ju i allt jobb bakom.
+
+**Oivvio Polite** — 01:37:21
+
+Jag fattar.
+
+**Arianna Bommarco** — 01:37:21
+
+Jag fattar.
+
+**Oivvio Polite** — 01:37:22
+
+Men det är väl det att e-boken känns ju ändå lite mer FMR, att man kanske har, ja nu köper jag den. Jag köper den. Det betyder att jag har den så länge jag har den här tjänsten på något sätt. Sen kanske den är borta. Det känns inte som att man kan låna ut den till en kompis. Pappersboken är ändå ett fysiskt föremål som kan ha en väldigt lång livslängd.
+
+**Arianna Bommarco** — 01:37:52
+
+Ja, och det är det som är det motsägelsefulla i hur det är nu. Det är faktiskt att det är pappersboken som har kortast livslängd.
+
+**Oivvio Polite** — 01:38:05
+
+Mm. På hyllan, så att säga.
+
+**Arianna Bommarco** — 01:38:05
+
+De digitala formaterna har oftast bara en försäljningsperiod på några månader och sen så dör de.
+
+**Oivvio Polite** — 01:38:06
+
+Mm. Mm.
+
+**Arianna Bommarco** — 01:38:14
+
+Säljs de inte efter tre månader eller fyra månader så ligger de på lager och kostar pengar och sen makuleras de och det kostar också pengar att makulera dem. Det vi har sett som jobbar mycket med digitala format är att böckerna får mycket längre livslängd och det är därför många också jobbar i serieformat. Varenda gång du släpper en ny del i serien så drar den med sig backlist.
+
+**Oivvio Polite** — 01:38:36
+
+När det kommer en ny bok så...
+
+**Arianna Bommarco** — 01:38:41
+
+Så man pratar mycket mer om frontlist och backlist än vad man gjorde tidigare.
+
+**Arianna Bommarco** — 01:38:48
+
+Så frontlist är allt det som exponeras, det man ser som kommer upp i flödena och allting. Men sen så är ju backlisten enorm och det är många förlag som... Det är därför det är viktigt för förlagen att ha stora kataloger.
+
+**Arianna Bommarco** — 01:39:07
+
+för att backlist är det som håller igång hela maskineriet.
+
+**Oivvio Polite** — 01:39:18
+
+Ja.
+
+**Arianna Bommarco** — 01:39:19
+
+Det här är vad jag kan bjucka på.
+
+**Oivvio Polite** — 01:39:30
+
+Tusen, tusen tack.
+
+**Arianna Bommarco** — 01:39:30
+
+Tusen, tusen tack. Vi kan väl hålla mellan oss att vi har haft det här samtalet.
+
+**Oivvio Polite** — 01:39:36
+
+Ja, ja. Jag säger det inte till någon annan.
+
+**Oivvio Polite** — 01:39:43
+
+Annat än Mats, min samarbetspartner.
+
+**Arianna Bommarco** — 01:39:48
+
+Jag känner inte att jag har lämnat ut några affärshemligheter, utan det är ganska allmänt prat.
+
+**Oivvio Polite** — 01:39:50
+
+Nej, verkligen inte.
+
+**Arianna Bommarco** — 01:39:56
+
+Men jag vill alltid vara lite försiktig med de där grejerna, för jag känner att man vet aldrig hur folk tolkar det ena och det andra.
+
+**Oivvio Polite** — 01:40:01
+
+Jag förstår. De kan tro att det handlat om något helt annat än vad det handlat om. Ja, jättebra.
+
+**Arianna Bommarco** — 01:40:08
+
+Yes.
+
+**Oivvio Polite** — 01:40:12
+
+Tusen tack.
+
+**Arianna Bommarco** — 01:40:12
+
+Ja, ha det bra Oivio.
+
+**Oivvio Polite** — 01:40:13
+
+Detsamma.
+
+**Arianna Bommarco** — 01:40:14
+
+Hälsa hem. Detsamma.
+
+**Oivvio Polite** — 01:40:15
+
+Hälsa Christian så mycket. Hej.
+
+**Arianna Bommarco** — 01:40:16
+
+Ja, det ska jag göra. Hej.
